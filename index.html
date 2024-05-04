@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>momentum</title>
+
+    <link rel="stylesheet" href="./CSS/style.css    ">
+</head>
+<body>
+    <!-- 3장 내용 -->
+    <!-- <div class="hello">
+        <h1 class="sexy-font">Grab Me!</h1>
+    </div> -->
+    <!-- 4장 -->
+    <form id="login-form" class="hidden">
+        <input
+            required
+            maxlength="10"
+            type="text"
+            placeholder="이름이 무엇인고?"
+        />
+        <button>들어오시게</button>
+        <!-- 엔터 or 버튼 클릭시 새로고침 막기 -->
+    </form>  
+    <!-- form 안에 input이 있는게 아니라서 requierd 같은거 못씀 고로 div -> form으로 변경 -->
+    <h1 id="greeting" class="hidden"></h1>
+    <!-- 5장 시계 -->
+    <h2 id="clock"></h2>
+    <!-- 6장 명언 뽑기 & 배경바꾸기 -->
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <!-- 7장 todo -->
+    <form id="todo-form">
+        <input id="todo-input" type="text" placeholder="할일적고 엔터 ㄱ" required>
+    </form>
+    <ul id="todo-list"></ul>
+    <!-- 8장 weather api를 사용 , 위도 경도 정보 뽑아오기 -->
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <!-- <script src="./app.js"></script> -->
+    <script src="./JS/greeting.js"></script>
+    <script src="./JS/clock.js"></script>
+    <script src="./JS/quotes.js"></script>
+    <script src="./JS/background.js"></script>
+    <script src="./JS/todo.js"></script>
+    <script src="./JS/weather.js"></script>
+</body>
+</html>
